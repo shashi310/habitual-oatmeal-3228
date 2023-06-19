@@ -1,0 +1,462 @@
+{
+  "cart": [
+    {
+      "name": "Capsicum green – Desi Seeds",
+      "price": 55,
+      "rating": 4,
+      "mkt": "general",
+      "category": "seeds",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/green-capsicum-plant-500x500-300x300.jpg",
+      "id": 27,
+      "quantity": 1
+    }
+  ],
+  "orders": [
+    {
+      "userdatails": {
+        "name": "Shashikant Yadav",
+        "email": "12@gmail.cpo",
+        "address": "delhi",
+        "zip": "110096",
+        "cardNumber": "1244",
+        "expDate": "223232",
+        "cvv": "323"
+      },
+      "cart": [
+        {
+          "name": "Capsicum green – Desi Seeds",
+          "price": 55,
+          "rating": 4,
+          "mkt": "general",
+          "category": "seeds",
+          "image": "https://gogarden.co.in/wp-content/uploads/2019/05/green-capsicum-plant-500x500-300x300.jpg",
+          "id": 27
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userdatails": {
+        "name": "Shashikant Yadav",
+        "email": "shashi31396s@gmail.com",
+        "address": "mumbai",
+        "zip": "110096",
+        "cardNumber": "124234",
+        "expDate": "1233",
+        "cvv": "321"
+      },
+      "cart": [
+        {
+          "name": "Liquid Fish Fertilizer for Plants – Widely used for Lemon Plant – All Purpose Liquid Fertilizer Vigorous Plant Growth 250 ML",
+          "price": 346,
+          "rating": 4,
+          "mkt": "Chemical",
+          "category": "fertilizer",
+          "image": "https://gogarden.co.in/wp-content/uploads/2021/01/Liquid-Fish-Fertilizer-for-Plants-1-300x300.jpg",
+          "id": 24
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userdatails": {
+        "name": "Shashikant Yadav",
+        "email": "12@gmail.cpo",
+        "address": "delhi",
+        "zip": "110096",
+        "cardNumber": "1213",
+        "expDate": "1231",
+        "cvv": "21313"
+      },
+      "cart": [
+        {
+          "name": "Vermicompost Complete Plant Food Effective Organic Fertilizer & Manure 100% Virgin",
+          "price": 466,
+          "rating": 4,
+          "mkt": "Organic",
+          "category": "fertilizer",
+          "image": "https://gogarden.co.in/wp-content/uploads/2019/05/vermicompost-benefits-for-plants-vermicompost-for-indoor-plants-4-300x300.jpg",
+          "id": 20
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userdatails": {
+        "name": "Shashikant Yadav",
+        "email": "shashi31396s@gmail.com",
+        "address": "mumbai",
+        "zip": "110096",
+        "cardNumber": "3213",
+        "expDate": "2321",
+        "cvv": "123"
+      },
+      "cart": [
+        {
+          "name": "Capsicum green – Desi Seeds",
+          "price": 55,
+          "rating": 4,
+          "mkt": "general",
+          "category": "seeds",
+          "image": "https://gogarden.co.in/wp-content/uploads/2019/05/green-capsicum-plant-500x500-300x300.jpg",
+          "id": 27,
+          "quantity": 1
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "Anthurium (Any Color) – Plant",
+      "price": 699,
+      "rating": 4,
+      "mkt": "INDOOR PLANT",
+      "category": "plant",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/anthurium-any-color-plant-300x300.jpg",
+      "id": 1
+    },
+    {
+      "name": "Gardenia, Ananta flower plant",
+      "price": 199,
+      "rating": 4,
+      "mkt": "INDOOR PLANT",
+      "category": "plant",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/Go-Garde-ngardenia-ananta-300x300.jpg",
+      "id": 2
+    },
+    {
+      "name": "2 Layer lucky Bamboo Plant in a bowl with pebbles",
+      "price": 189,
+      "rating": 4,
+      "mkt": "INDOOR PLANT",
+      "category": "plant",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/product-500x500-300x300.jpeg",
+      "id": 3
+    },
+    {
+      "name": "Amla ( Big Fruit, Grown through seeds ) – Plant",
+      "price": 199,
+      "rating": 4,
+      "mkt": "INDOOR PLANT",
+      "category": "plant",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/il_794xN.1489310292_k35f-300x300.jpg",
+      "id": 4
+    },
+    {
+      "name": "Bunny Ear Cactus, Opuntia microdasys – Cactus Plant",
+      "price": 249,
+      "rating": 4,
+      "mkt": "CACTUS",
+      "category": "plant",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/bunny-ears-cacti-opuntia-microdasys-cactaceae-and-succulent-plant-500x500-300x300.jpg",
+      "id": 5
+    },
+    {
+      "name": "2 Layer lucky Bamboo Plant in a bowl with pebbles",
+      "price": 189,
+      "rating": 4,
+      "mkt": "INDOOR PLANT",
+      "category": "plant",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/product-500x500-300x300.jpeg",
+      "id": 6
+    },
+    {
+      "name": "Custard Apple, Sitafal, Annona squamosa (Grafted) – Plant",
+      "price": 249,
+      "rating": 4,
+      "mkt": "INDOOR PLANT",
+      "category": "plant",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/custard-apple-sitafal-annona-squamosa-grafted-plant5_600x600-300x300.jpg",
+      "id": 7
+    },
+    {
+      "name": "Litchi ( Grown through seeds ) – Plant",
+      "price": 439,
+      "rating": 4,
+      "mkt": "INDOOR PLANT",
+      "category": "plant",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/Go-Gardenlitchi-1.png",
+      "id": 8
+    },
+    {
+      "name": "Mango, Aam ( Grown through seeds ) – Plant",
+      "price": 199,
+      "rating": 4,
+      "mkt": "INDOOR PLANT",
+      "category": "plant",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/Go-Garden-mango-desi-tree_600x600-1-300x300.jpg",
+      "id": 9
+    },
+    {
+      "name": "Anthurium (Any Color) – Plant",
+      "price": 699,
+      "rating": 4,
+      "mkt": "INDOOR PLANT",
+      "category": "plant",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/anthurium-any-color-plant-300x300.jpg",
+      "id": 10
+    },
+    {
+      "name": "Anthurium (Pink) – Plant",
+      "price": 699,
+      "rating": 4,
+      "mkt": "INDOOR PLANT",
+      "category": "plant",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/anthurium-andreanum-princess-amalia-elegance-plant-300x300.jpg",
+      "id": 11
+    },
+    {
+      "name": "Papaya, Papita ( Grown through seeds ) – Plant",
+      "price": 248,
+      "rating": 4,
+      "mkt": "INDOOR PLANT",
+      "category": "plant",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/Go-Garden-papaya-plant-images-1-300x300.jpg",
+      "id": 12
+    },
+    {
+      "name": "All Purpose N P K (15:15:15) Fertilizer for Plants and Gardening",
+      "price": 229,
+      "rating": 4,
+      "mkt": "Chemical",
+      "category": "fertilizer",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/Fertilizer-for-Abundant-Flowering-and-Plant-Growth-1-300x300.jpg",
+      "id": 13
+    },
+    {
+      "name": "Calcium Nitrate Fertilizer for Plants (100% Water Soluble Fertilizer) Plant Food Ready to Use for All Plants 950 Gram",
+      "price": 199,
+      "rating": 4,
+      "mkt": "Chemical",
+      "category": "fertilizer",
+      "image": "https://gogarden.co.in/wp-content/uploads/2021/04/calcium-nitrate-for-banana-plants-calcium-nitrate-price-calcium-nitrate-for-tomato-plants-calcium-nitrate-fertilizer-calcium-nitrate-5-300x300.jpg",
+      "id": 14
+    },
+    {
+      "name": "Cocopeat Block for Gardening Plants Home Kitchen Terrace Garden – 5KG BLOCK Expands Up to 75 litres",
+      "price": 347,
+      "rating": 4,
+      "mkt": "Chemical",
+      "category": "fertilizer",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/41bhWwSW1gL-1-1-300x300.jpg",
+      "id": 15
+    },
+    {
+      "name": "Go Garden NPK 19 19 19 Fertilizer for Plants and Gardening Purpose (450G)",
+      "price": 299,
+      "rating": 4,
+      "mkt": "Chemical",
+      "category": "fertilizer",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/08/NPK-19-19-19-FOR-PLANT-1-scaled-300x300.jpg",
+      "id": 16
+    },
+    {
+      "name": "Mustard Cake Powder for Plants and Home Garden – Organic Fertilizer 1KG",
+      "price": 565,
+      "rating": 4,
+      "mkt": "Organic",
+      "category": "fertilizer",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/1556797930426-copy-300x300.jpg",
+      "id": 17
+    },
+    {
+      "name": "Neem Cake Powder for Plants and Home Garden 100% Organic Fertilizer and Pest Repellent",
+      "price": 456,
+      "rating": 4,
+      "mkt": "Organic",
+      "category": "fertilizer",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/Neem-Cake-Powder-for-Plants-and-Home-Garden-100-Organic-Fertilizer-and-Pest-Repellent-2-300x300.jpg",
+      "id": 18
+    },
+    {
+      "name": "Organic Bone Meal Fertilizer for Plants 950 Grams",
+      "price": 488,
+      "rating": 4,
+      "mkt": "Organic",
+      "category": "fertilizer",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/10/Organic-Bone-Meal-Fertilizer-for-Plants-1-300x300.jpg",
+      "id": 19
+    },
+    {
+      "name": "Vermicompost Complete Plant Food Effective Organic Fertilizer & Manure 100% Virgin",
+      "price": 466,
+      "rating": 4,
+      "mkt": "Organic",
+      "category": "fertilizer",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/vermicompost-benefits-for-plants-vermicompost-for-indoor-plants-4-300x300.jpg",
+      "id": 20
+    },
+    {
+      "name": "Humic Acid for Plants (Humic Acid 98%) – Natural Plant Growth Stimulator – Organic Plant Food",
+      "price": 356,
+      "rating": 4,
+      "mkt": "Organic",
+      "category": "fertilizer",
+      "image": "https://gogarden.co.in/wp-content/uploads/2021/01/Go-Garden-Humic-Acid-for-Plants-Humic-Acid-98-Natural-Plant-Growth-Stimulator-Organic-Plant-Food-2-300x300.jpg",
+      "id": 21
+    },
+    {
+      "name": "Organic Tulsi Fertilizer for tulsi Plant | Orgnaic natural Fertilizer For holy basil Plant 950 Grams",
+      "price": 355,
+      "rating": 4,
+      "mkt": "Organic",
+      "category": "fertilizer",
+      "image": "https://gogarden.co.in/wp-content/uploads/2021/01/Go-Garden-Organic-Tulsi-Fertilizer-for-tulsi-Plant-Orgnaic-Fertilizer-for-Terrace-Home-Gardening-1-300x300.jpg",
+      "id": 22
+    },
+    {
+      "name": "Dap Fertilizer for Plants and Gardening | All Purpose NPK – 18 : 46 : 0 | Water Soluble | 400 Grams",
+      "price": 345,
+      "rating": 4,
+      "mkt": "Chemical",
+      "category": "fertilizer",
+      "image": "https://gogarden.co.in/wp-content/uploads/2018/04/diammonium-phosphate-dap-2-300x300.jpg",
+      "id": 23
+    },
+    {
+      "name": "Liquid Fish Fertilizer for Plants – Widely used for Lemon Plant – All Purpose Liquid Fertilizer Vigorous Plant Growth 250 ML",
+      "price": 346,
+      "rating": 4,
+      "mkt": "Chemical",
+      "category": "fertilizer",
+      "image": "https://gogarden.co.in/wp-content/uploads/2021/01/Liquid-Fish-Fertilizer-for-Plants-1-300x300.jpg",
+      "id": 24
+    },
+    {
+      "name": "Bitter Gourd (Karela, Pack of 10g, 50+ Seeds) Seeds to grow all seasons",
+      "price": 56,
+      "rating": 4,
+      "mkt": "general",
+      "category": "seeds",
+      "image": "https://gogarden.co.in/wp-content/uploads/2022/05/seeds-bitter-gourd-f1-santur-vegetable-seeds-16969056157836_600x600-300x300.jpg",
+      "id": 25
+    },
+    {
+      "name": "bottle gourd seeds Loki Vegetable Seeds ( Pack of 10g, 80+ Seeds)",
+      "price": 65,
+      "rating": 4,
+      "mkt": "general",
+      "category": "seeds",
+      "image": "https://gogarden.co.in/wp-content/uploads/2022/05/lauki-copy-800x800-1-300x300.jpg",
+      "id": 26
+    },
+    {
+      "name": "Capsicum green – Desi Seeds",
+      "price": 55,
+      "rating": 4,
+      "mkt": "general",
+      "category": "seeds",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/green-capsicum-plant-500x500-300x300.jpg",
+      "id": 27
+    },
+    {
+      "name": "Carrot red long – Desi Seeds",
+      "price": 56,
+      "rating": 4,
+      "mkt": "general",
+      "category": "seeds",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/product-packshot-Carrot-558x600-300x300.jpg",
+      "id": 28
+    },
+    {
+      "name": "Cauliflower snowball , full gobhi (फूल गोभी) Seeds",
+      "price": 55,
+      "rating": 4,
+      "mkt": "general",
+      "category": "seeds",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/Go-Garden-snowball-cauliflowercontainer-gardening-2-300x300.jpg",
+      "id": 29
+    },
+    {
+      "name": "CHILLY Vegetable Seeds (GREEN, Pack of 10g, 2000+Seeds)",
+      "price": 57,
+      "rating": 4,
+      "mkt": "general",
+      "category": "seeds",
+      "image": "https://gogarden.co.in/wp-content/uploads/2022/05/09-05-2019Chilli_mirchi_seeds-300x300.jpg",
+      "id": 30
+    },
+    {
+      "name": "coriander धनिया Seeds (Dhaniya, Pack of 20g, 1200+ Seeds) Seeds to grow all seasons in Your Home & kitchen garden",
+      "price": 57,
+      "rating": 4,
+      "mkt": "general",
+      "category": "seeds",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/Go-Garden-coriander-seeds-300x300.jpg",
+      "id": 31
+    },
+    {
+      "name": "Cowpea Beans/Barbatti Vegetable Seeds (Green, Pack of 25g, 225+ Seeds)",
+      "price": 57,
+      "rating": 4,
+      "mkt": "general",
+      "category": "seeds",
+      "image": "https://gogarden.co.in/wp-content/uploads/2022/05/Cowpea-Beans-1-300x300.jpg",
+      "id": 32
+    },
+    {
+      "name": "Patta Gobhi, Cabbage Seeds",
+      "price": 57,
+      "rating": 4,
+      "mkt": "general",
+      "category": "seeds",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/white-cabbage-2705228_960_720-300x300.jpg",
+      "id": 33
+    },
+    {
+      "name": "PEAS SEEDS (Matar)",
+      "price": 57,
+      "rating": 4,
+      "mkt": "general",
+      "category": "seeds",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/Peas-600x469-300x300.jpg",
+      "id": 34
+    },
+    {
+      "name": "okra seeds Bhindi Vegetable Seeds ( Pack of 25g, 400+ Seeds) Seeds to grow",
+      "price": 57,
+      "rating": 4,
+      "mkt": "general",
+      "category": "seeds",
+      "image": "https://gogarden.co.in/wp-content/uploads/2022/05/okra-1-300x300.jpg",
+      "id": 35
+    },
+    {
+      "name": "Tomato, Cherry Tomato Honey – Seeds (Red, Pack of 10g, 2000+ Seeds) Seeds to grow in Your Home & kitchen garden",
+      "price": 57,
+      "rating": 4,
+      "mkt": "general",
+      "category": "seeds",
+      "image": "https://gogarden.co.in/wp-content/uploads/2019/05/6000197337846-300x300.jpg",
+      "id": 36
+    }
+  ],
+  "login": [
+    {
+      "email": "admin@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "email": "shashi31396s@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "email": "shashi31396s@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "email": "shashi31396s@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "email": "shashi31396s@gmail.com",
+      "password": "123",
+      "id": 5
+    }
+  ]
+}
