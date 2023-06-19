@@ -58,6 +58,10 @@
 .birthday-special{
    margin-top: 50px;
 }
+.birthday-special img{
+   height: 350px;
+   
+}
 
 /* -------------------------------Form----------home-----ocassion -------- */
 .form-home-occasion{

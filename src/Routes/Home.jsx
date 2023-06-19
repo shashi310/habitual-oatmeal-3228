@@ -32,7 +32,7 @@ function Home() {
     <Navbar/>
      <div className='Home-container'>
         <div className='two-in-one'>
-        <img src='https://www.netmeds.com/images/cms/aw_rbslider/slides/1682870704_Web_Home_Bannersvbvv.jpg?quality=70&auto=webp&optimize={medium}' alt='first-image'/>
+        <img src='https://plantic.in/image/banner-shipping.jpg?quality=70&auto=webp&optimize={medium}' alt='first-image'/>
         <form className='form-home-occasion'>
         <h4 style={{color:"rgb(110, 50, 144)"}}>Get the Service Now</h4>
         <div className='Find-perfecti-gift'>
@@ -44,10 +44,10 @@ function Home() {
         <label >Services</label>
         <select> 
         <option value="" selected>Select an item</option>
-         <option value="item">Lab Test</option>
-         <option value="item2">Order Medicine</option>
-         <option value="item3">Book Appointment</option>
-        <option value="item4">Health Devices</option>
+         <option value="item">Plants</option>
+         <option value="item2">Fertilizers</option>
+         <option value="item3">Seeds</option>
+      
        </select>
          </div>
         </div>
@@ -59,54 +59,56 @@ function Home() {
         <h1>Shop by Category</h1>
         <div id='Send-flowers'>
         <div>
-          <img src="https://www.netmeds.com/images/category/v1/3964/thumb/petcare_2.jpg?quality=85&auto=webp&optimize={medium}" alt='pet Care'/>
-          Pet Care </div>
+          <img src="https://plantic.in/image/microgreen-seeds.jpg?quality=85&auto=webp&optimize={medium}" alt='pet Care'/>
+         </div>
           <div>
-          <img src="https://www.netmeds.com/images/category/3222/thumb/vitamins_and_supplements_1.jpg?quality=85&auto=webp&optimize={medium}" alt='Vitamins and Supplements'/>
-           Vitamins and Supplements</div>
+          <img src="https://plantic.in/image/hybrid-seeds.jpg?quality=85&auto=webp&optimize={medium}" alt='Vitamins and Supplements'/>
+            </div>
           <div>
-          <img src="https://www.netmeds.com/images/category/v1/676/thumb/orthopaedics_2.jpg?quality=85&auto=webp&optimize={medium}" alt='OrthoPaedics'/>
-          OrthoPaedics</div>
+          <img src="https://plantic.in/image/vegeable-seeds.jpg?quality=85&auto=webp&optimize={medium}" alt='OrthoPaedics'/>
+          </div>
           <div>
-          <img src="https://www.netmeds.com/images/category/675/thumb/measurements_1.jpg?quality=85&auto=webp&optimize={medium}" alt='Measurments'/>
-          Measurments</div>
+          <img src="https://plantic.in/image/desi-seeds.jpg?quality=85&auto=webp&optimize={medium}" alt='Measurments'/>
+          </div>
           <div>
-          <img src="https://www.netmeds.com/images/category/3362/thumb/dilutions_0.jpg?quality=85&auto=webp&optimize={medium}" alt='Dilutions'/>
-          Dilutions</div>
+          <img src="https://plantic.in/image/herb-seeds.jpg?quality=85&auto=webp&optimize={medium}" alt='Dilutions'/>
+          </div>
           <div>
-          <img src="https://www.netmeds.com/images/product-v1/150x150/895027/onelife_monofloral_manuka_honey_500_gm_0_1.jpg?quality=85&auto=webp&optimize={medium}" alt='Ingredients'/>
-          Ingredients</div>
+          <img src="https://plantic.in/image/fruits-seeds.jpg?quality=85&auto=webp&optimize={medium}" alt='Ingredients'/>
+          </div>
         </div>
 
 
 
 
+<br></br>
+    <h1>Decorate your Home</h1>
         <div className='birthday-special' >
-          <img src='https://www.netmeds.com/images/cms/aw_rbslider/slides/1683242996_personal-care_web.jpg?quality=85&auto=webp&optimize={medium}' alt='change'></img>
+          <img src='https://gogarden.co.in/wp-content/uploads/2019/05/bannerD_6872e5f2-bcef-4325-a348-58af6feebb96_2048x2048.jpg?quality=85&auto=webp&optimize={medium}' alt='change'></img>
         </div>
 
         <h3 className='two-spring-htag'>Trending Today</h3>
         <div className='two-spring-bulb'>
-          <img src='https://www.netmeds.com/images/cms/aw_rbslider/slides/1682684006_Vicks_Home_Page_Mini_Banner_Web.jpg?quality=60&auto=webp&optimize={medium}' alt='spring-bulb'/>
-          <img src='https://www.netmeds.com/images/cms/aw_rbslider/slides/1683139078_Vetoquinol_mini_web.jpg?quality=60&auto=webp&optimize={medium}' alt='spring-bulb'/>
-          <img src='https://www.netmeds.com/images/cms/aw_rbslider/slides/1683022850_Dabur_web.jpg?quality=60&auto=webp&optimize={medium}' alt='spring-bulb'/>
-          <img src='https://www.netmeds.com/images/cms/aw_rbslider/slides/1683023296_Dr._Willmar_Schwabe_Mini_banner_web.jpg?quality=60&auto=webp&optimize={medium}' alt='spring-bulb'/>
+          <img src='https://gogarden.co.in/wp-content/uploads/2019/05/catalogplants-2.jpg?quality=60&auto=webp&optimize={medium}' alt='spring-bulb'/>
+          <img src='https://gogarden.co.in/wp-content/uploads/2019/05/127072-2.jpg?quality=60&auto=webp&optimize={medium}' alt='spring-bulb'/>
+          <img src='https://gogarden.co.in/wp-content/uploads/2019/05/janveg-3-3-3.jpg?quality=60&auto=webp&optimize={medium}' alt='spring-bulb'/>
+          <img src='https://gogarden.co.in/wp-content/uploads/2019/05/Pennington-Fertilizer-3.jpg?quality=60&auto=webp&optimize={medium}' alt='spring-bulb'/>
         </div>
 
-        <h2 style={{textAlign:"center"}}>New on Medmarket</h2>
+        <h2 style={{textAlign:"center"}}>New on LeafyMart</h2>
         <div className='selfcare'>
-          <img src='https://www.netmeds.com/images/cms/aw_rbslider/slides/1682405979_Dhootapapeshwar_web.jpg?v=1?quality=85&auto=webp&optimize={medium}'/>
-          <img src='https://www.netmeds.com/images/cms/aw_rbslider/slides/1678797273_Bangalore-Bio-plasgens_web.jpg?v=1?quality=85&auto=webp&optimize={medium}'/>
-          <img src='https://www.netmeds.com/images/cms/aw_rbslider/slides/1679996052_Wolfe-Dietri_web.jpg?quality=85&auto=webp&optimize={medium}'/>
-          <img src='https://www.netmeds.com/images/cms/aw_rbslider/slides/1683139269_Nutrileague_web.jpg?quality=85&auto=webp&optimize={medium}'/>
-          <img src='https://www.netmeds.com/images/cms/aw_rbslider/slides/1683139204_Hapro-Homeo_web.jpg?quality=85&auto=webp&optimize={medium}'/>
-          <img src='https://www.netmeds.com/images/cms/aw_rbslider/slides/1683139389_Ramaraju_web.jpg?quality=85&auto=webp&optimize={medium}'/>
+          <img src='https://plantic.in/image/bd-id.jpg?v=1?quality=85&auto=webp&optimize={medium}'/>
+          <img src='https://plantic.in/image/ss-aio.jpg?v=1?quality=85&auto=webp&optimize={medium}'/>
+          <img src='https://plantic.in/image/tpc-hp.jpg?quality=85&auto=webp&optimize={medium}'/>
+          <img src='https://plantic.in/image/wsc-aio.jpg?quality=85&auto=webp&optimize={medium}'/>
+          <img src='https://plantic.in/image/indoor-booster1.jpg?quality=85&auto=webp&optimize={medium}'/>
+          <img src='https://plantic.in/image/bloom-booster1.jpg?quality=85&auto=webp&optimize={medium}'/>
         </div>
         
         <h2 className='delicious-gift'>Hot Brands</h2>
         <div  className='two-spring-bulb'>
-          <img src='https://www.netmeds.com/images/cms/aw_rbslider/slides/1676974628_Inlife_mini-banners-web.jpg?quality=60&auto=webp&optimize={medium}' alt='err1'/>
-          <img src='https://www.netmeds.com/images/cms/aw_rbslider/slides/1681209297_Lenskart_mini_web.jpg?quality=60&auto=webp&optimize={medium}' alt='err-2'/>
+          <img src='https://gogarden.co.in/wp-content/uploads/2019/05/pest_f285a82f-7a83-406d-a714-1c680751a406_590x-1.jpg?quality=60&auto=webp&optimize={medium}' alt='err1'/>
+          <img src='https://gogarden.co.in/wp-content/uploads/2019/05/pest_f285a82f-7a83-406d-a714-1c680751a406_590x-1-1.jpg?quality=60&auto=webp&optimize={medium}' alt='err-2'/>
         </div>
 
         <div className='gifts-and-more'>
@@ -122,8 +124,8 @@ function Home() {
 
 
 
-        <h1>know more</h1>
-        <div id='Send-flowers'>
+        <h1 style={{marginTop:"40px"}}>know more</h1>
+        <div id='Send-flowers' >
         <div>
           <img src="https://www.netmeds.com/images/cms/magefan_blog/nmslite/1683266525_World-Thalassemia-Day_480x180.jpg?quality=85&auto=webp&optimize={medium}" alt='pet Care'/>
           Pet Care </div>
@@ -148,7 +150,7 @@ function Home() {
 
 
 
-        <h1>Health concerns</h1>
+        {/* <h1>Health concerns</h1>
         <div id='Send-flowerss'>
         <div>
           <img src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/img/lung-care.jpg?v=1?quality=85&auto=webp&optimize={medium}" alt='pet Care'/>
@@ -164,7 +166,7 @@ function Home() {
           Measurments</div>
           
           
-        </div>
+        </div> */}
 
 
 
@@ -234,7 +236,7 @@ function Home() {
 
 
 
-
+{/* 
       <h2 className='rating-heading'>Some of the Great Things Our Customers Say About Us</h2>
       <div className='rating'>
          <div>
@@ -292,8 +294,12 @@ function Home() {
           <p>"Such a Quality item"</p>
           <h5>- Brian</h5>
          </div>
-      </div>
-      <div className='powered-by-img'>
+      </div> */}
+
+
+
+
+      <div className='powered-by-img' style={{marginTop:"40px"}}>
          <p>Powered by</p>
          <div>
            <img src='https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/bltcf637a6e16efdb8e/5ea9acbed4b10d15d3e8cfb3/yotpo-logo.png?quality=70&auto=webp&optimize={medium}'/>  

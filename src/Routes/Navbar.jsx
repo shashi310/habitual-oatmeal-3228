@@ -36,14 +36,14 @@ function Navbar() {
     </div>
     </nav>
     <div className='navbar-links'>
-      <div><h4>Lab Test</h4></div>
       
-      <div><Link to="/product"><h4>Wellness</h4></Link></div>
-      <div><Link to="/product"><h4>Medicine</h4></Link></div>
-      <div><h4>Health Devices</h4></div>
-      <div><h4>Health Corner</h4></div>
-      <div><h4>Doctors</h4></div>
-      <div><h4>Book Appointment</h4></div>
+      
+      <div><Link to="/"><h4>Home</h4></Link></div>
+      <div><Link to="/product"><h4>Plants</h4></Link></div>
+      <div><Link to="/product"><h4>Fertilizers</h4></Link></div>
+      <div><Link to="/product"><h4>Pots</h4></Link></div>
+      <div><Link to="/product"><h4>Seeds</h4></Link></div>
+      <div><h4>Contact Us</h4></div>
     
     </div>
     {/* <div className='megaMenu'>

@@ -124,7 +124,7 @@ function Postme(){
     <Navbar />
   
     <div  style={{
-      backgroundImage: "url('https://cdn.shopify.com/s/files/1/0720/8186/7039/articles/what-is-healthcare-707998.png?v=1677580538?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60)",
+      backgroundImage: "url('https://www.allaboutgardening.com/wp-content/uploads/2022/01/Types-of-Flowers-in-Garden-1200x667.jpg?v=1677580538?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60)",
       backgroundSize: 'cover',
       backgroundPosition: 'center',
     }}>

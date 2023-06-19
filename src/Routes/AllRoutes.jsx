@@ -7,6 +7,7 @@ import Cart from "../Components/Cart";
 import Payment from "../Components/Payment"
 import Final from "../Components/Final";
 import MyOrder from "../Components/Myorder";
+import SingleProductPage from "./SingleProductPage";
 
 
 function AllRoutes() {
@@ -16,6 +17,15 @@ function AllRoutes() {
         <Route path="/" element={<Home />} />
         <Route path="/navbar" element={<Navbar/>} />
         <Route path="/product" element={<Product />} />
+        <Route path="/product/:id" element={
+   
+<SingleProductPage/>
+    
+  
+
+}  
+  />
+
         <Route path="/login" element={<Login />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/Myorder" element={<MyOrder />} />

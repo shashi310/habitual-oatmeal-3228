@@ -8,17 +8,15 @@ function Footer() {
 
    <div className='footer-container'>
    <div>
-    <h5>About MedMarket</h5>
-    <h6>Customers Speak</h6>
+    <h5>About </h5>
     <h6>In the News</h6>
     <h6>Career</h6>
     <h6>Contact</h6>
-    <h6>Birthday Flowers & Gifts</h6>
-    <h6>Annual Subscriptions</h6>
-    <h6>Labs</h6>
+    <h6>Flowers & Gifts</h6>
+    <h6>Annual Subscriptions</h6>   
     <h6>Supplies</h6>
     <h6>International Reach</h6>
-    <h6>Find a Local Lab</h6>
+    <h6>Find a Local store</h6>
     <h6>Corporate </h6>
     <h6> Covered</h6>
     <h6>Marketplace Sellers</h6>
@@ -27,7 +25,7 @@ function Footer() {
    <div>
     <h5>CUSTOMER SERVICE</h5>
     <h6>Customer Service</h6>
-    <h6>COVID-19 Updates</h6>
+   
     <h6>eGift Cards</h6>
     <h6>Contact Us</h6>
     <h6>Do Not Sell My Personal</h6>

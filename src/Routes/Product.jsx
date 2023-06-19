@@ -1,13 +1,15 @@
 import "../css/Product.css"
 import axios from 'axios'
+import {Link} from "react-router-dom"
 import { useEffect,useState } from 'react'
 import Navbar from './Navbar'
 import Footer from "../Components/Footer"
-import { Box ,Text,Grid,Card,CardBody,Image,Stack,Heading,Divider,CardFooter,ButtonGroup,Button} from "@chakra-ui/react";
+import Pagination from "../Components/Pagination"
+import { Box ,Text,Grid,Card,CardBody,Image,Stack,Skeleton,Heading,Divider,CardFooter,ButtonGroup,Button} from "@chakra-ui/react";
 // import { Grid, GridItem } from "@chakra-ui/react";
 
 import Cart from "../Components/Cart"
-import { Spinner } from "@chakra-ui/react";
+
 // import Pagination from "../Components/Pagination"
 
 function Product() {
@@ -19,11 +21,15 @@ function Product() {
   const [currentPage, setCurrentPage] = useState(1);
   const [pageSize, setPageSize] = useState(10);
   const [isLoading, setIsLoading] = useState(false);
-
+  const [page,setPage]= useState(6)
+  // const [totalPages,setTotalPages] = useState(36)
+const totalPages=6
   useEffect(() => {
     setIsLoading(true);
     axios.get(`http://localhost:8080/products`, {
       params: {
+        _page: page,
+        _limit: 6,
         _sort: "price",
         _order: order
       }
@@ -38,7 +44,7 @@ function Product() {
       })
       .catch((err) => alert(err))
       .finally(() => setIsLoading(false));
-  }, [order, filterByColors]);
+  }, [page,order,filterByColors]);
 
   const handleColorChange = (event) => {
     const { value, checked } = event.target;
@@ -73,10 +79,18 @@ function Product() {
       .catch((err) => alert(err))
       .finally(() => setIsLoading(false));
   };
+if(isLoading){
+  return <>
+  <Navbar />
+  <Stack data-cy="loading_indicator">
+  <Skeleton height='20px' />
+  <Skeleton height='20px' />
+  <Skeleton height='20px' />
+  <Skeleton height='20px' />
+</Stack>
+</>
+}
 
-  const handlePageChange = (page) => {
-    setCurrentPage(page);
-  };
 
   const pageCount = Math.ceil(data.length / pageSize);
   const startIndex = (currentPage - 1) * pageSize;
@@ -106,6 +120,9 @@ function Product() {
 // getData()
 //  }
  
+const handlePageChange =(page)=>{
+  setPage(page)
+}
  
   return (
     <>
@@ -115,7 +132,7 @@ function Product() {
     {/* ---------------sort---by-----price------------------- */}
     
     <div className="all-product">
-    <div className="side-bar" style={{padding:"10px"}}>
+    <div className="side-bar" style={{padding:"20px"}}>
     <label>
         Sort by Price:
         <select value={order} onChange={(event) => setOrder(event.target.value)}>
@@ -124,34 +141,24 @@ function Product() {
           <option value="desc">High to Low</option>
         </select>
       </label>
-
+      {/*   plant  */}
       <br/>
       <Divider />
   <div style={{marginTop:"40px"}}>
     <label >
         Filter by Category
         <br />
-        <input type="checkbox" id="Ayurvedic" name="Ayurvedic" value="Ayurvedic" checked={filterByColors.includes("Ayurvedic")} onChange={handleColorChange} />
-        <label htmlFor="Ayurvedic">Ayurvedic</label>
+        <input type="checkbox" id="Ayurvedic" name="Ayurvedic" value="plant" checked={filterByColors.includes("plant")} onChange={handleColorChange} />
+        <label htmlFor="plant">plant</label>
         <br />
 
-        <input type="checkbox" id="Suppliment" name="Suppliment" value="Suppliment" checked={filterByColors.includes("Suppliment")} onChange={handleColorChange} />
-        <label htmlFor="Suppliment">Suppliment</label>
+        <input type="checkbox" id="Suppliment" name="Suppliment" value="fertilizer" checked={filterByColors.includes("fertilizer")} onChange={handleColorChange} />
+        <label htmlFor="fertilizer">fertilizer</label>
         <br />
-        <input type="checkbox" id="Diabetes Care" name="Diabetes Care" value="Diabetes Care" checked={filterByColors.includes("Diabetes Care")} onChange={handleColorChange} />
-        <label htmlFor="Diabetes Care">Diabetes Care</label>
+        <input type="checkbox" id="Diabetes Care" name="Diabetes Care" value="seeds" checked={filterByColors.includes("seeds")} onChange={handleColorChange} />
+        <label htmlFor="seeds">seeds</label>
         <br />
-        <input type="checkbox" id="Covid Essentials" name="Covid Essentials" value="Covid Essentials" checked={filterByColors.includes("Covid Essentials")} onChange={handleColorChange} />
-        <label htmlFor="Covid Essentials">Covid Essentials</label>
-        <br />
-        <input type="checkbox" id="Surgical" name="Surgical" value="Surgical" checked={filterByColors.includes("Surgical")} onChange={handleColorChange} />
-        <label htmlFor="Surgical">Surgical</label>
-        <br />
-        <input type="checkbox" id="Eyewear" name="Eyewear" value="Eyewear" checked={filterByColors.includes("Eyewear")} onChange={handleColorChange} />
-        <label htmlFor="Eyewear">Eyewear</label>
-        <br />
-        <input type="checkbox" id="Veterinary" name="Veterinary" value="Veterinary" checked={filterByColors.includes("Veterinary")} onChange={handleColorChange} />
-        <label htmlFor="Veterinary">Veterinary</label>
+        
         <br />
 
 
@@ -164,7 +171,7 @@ function Product() {
     {/* ----------------------------------------------------------------------------------------------------- */}
     <div className="makeit">
     <Grid templateColumns="repeat(3, 1fr)" gap={6}>
-  {data.map((ele) => (
+  {data?.map((ele) => (
     <Card key={ele.id} maxW='xs'>
       <CardBody>
         <Image
@@ -194,28 +201,30 @@ function Product() {
           <Button variant='ghost' colorScheme='blue' onClick={() => addToCart(ele)}>
             Add to cart
           </Button>
+          <Link to={`/product/${ele.id}`}> <Button >More Info</Button></Link>
+          {/* <Link to={`/product/${ele.id}`}>More Info</Link> */}
         </ButtonGroup>
       </CardFooter>
     </Card>
   ))}
 </Grid>
 </div>
-    {/* ----------------------------------------------------------------------------------------------------- */}
-    {/* <div className='product'>
-      {data.map((ele,ind)=>(
-        <div  key={ind} className="elements">
-        <img src={ele.avatar} alt="name"/>
-        <p>{ele.title}</p>
-        <p> Price - {ele.price}</p> 
-        <button style={{backgroundColor:"gray"}} onClick={() => addToCart(ele)}>Add to cart</button>
-        </div>
-      ))}
+    
+
+
+</div >
+<div  style={{marginLeft:"500px",
+marginTop:"30px",
+marginBottom:"30px",
+}}>
+{data.length>0 && <Pagination totalPages={totalPages} handlePageChange={handlePageChange} currentPage={page}/>}
+</div> 
+{/* <div >
+    <button disabled={page===1} onClick={()=>setPage(page-1)} >PREV</button>
+    <button disabled>{page}</button>
+    <button disabled={page===6} onClick={()=>setPage(page+1)}>NEXT</button>
     </div> */}
-    {/* </div> */}
 
-
-
-</div>
     <Footer/>
 </>
   )
