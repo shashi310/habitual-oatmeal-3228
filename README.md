@@ -3,7 +3,7 @@
 <h4> To run LeafyMart website clone click below link</h4>
 <ul> <li><a href="https://648fd6f1bb4a661c5b46aad1--timely-mooncake-09ad75.netlify.app/ "> click here </a></li> </ul>
 
-<div> <p> A web application for buying seeds,fertilizers and flowers </p></div>
+<div> <p>Embark on a virtual journey through this React-powered project, a user-friendly web app, where you can explore and purchase an array of seeds, fertilizers, and exquisite flowers. </p></div>
 
 <div>
 <h2> Ecommerce website </h2>
